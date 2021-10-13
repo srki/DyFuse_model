@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+venturiLevel3.mtx,1,4.03E+06,4.03E+06,8.05E+06,0,0,0,0,0,1.9975186104218363,6.605305046141109,6.605305046141109,6.905795880367869

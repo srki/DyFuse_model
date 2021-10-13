@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+belgium_osm.mtx,1,1.44E+06,1.44E+06,1.55E+06,0,0,0,0,0,1.0763888888888888,6.158362492095249,6.158362492095249,6.190331698170292

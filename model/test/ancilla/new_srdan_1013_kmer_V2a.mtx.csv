@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+kmer_V2a.mtx,1,5.50E+07,5.50E+07,5.86E+07,0,0,0,0,0,1.0654545454545454,7.740362689494244,7.740362689494244,7.76789761601809

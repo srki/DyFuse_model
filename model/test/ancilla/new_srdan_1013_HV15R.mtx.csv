@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+HV15R.mtx,1,2.02E+06,2.02E+06,1.62E+08,0,0,0,0,0,80.1980198019802,6.305351369446623,6.305351369446623,8.209515014542632

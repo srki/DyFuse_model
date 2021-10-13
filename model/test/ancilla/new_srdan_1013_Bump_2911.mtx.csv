@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+Bump_2911.mtx,1,2.91E+06,2.91E+06,6.24E+07,0,0,0,0,0,21.443298969072163,6.463892988985907,6.463892988985907,7.795184589682424

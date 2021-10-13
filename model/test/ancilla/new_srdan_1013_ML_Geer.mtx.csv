@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+ML_Geer.mtx,1,1.50E+06,1.50E+06,5.47E+07,0,0,0,0,0,36.46666666666667,6.176091259055681,6.176091259055681,7.737987326333431

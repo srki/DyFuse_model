@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+delaunay_n24.mtx,1,1.68E+07,1.68E+07,5.03E+07,0,0,0,0,0,2.994047619047619,7.225309281725863,7.225309281725863,7.701567985055927

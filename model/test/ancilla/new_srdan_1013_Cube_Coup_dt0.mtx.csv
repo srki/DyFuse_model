@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+Cube_Coup_dt0.mtx,1,2.16E+06,2.16E+06,6.25E+07,0,0,0,0,0,28.935185185185187,6.334453751150931,6.334453751150931,7.795880017344075

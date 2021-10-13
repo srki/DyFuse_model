@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+indochina-2004.mtx,1,7.41E+06,7.41E+06,1.51E+08,0,0,0,0,0,20.3778677462888,6.869818207979328,6.869818207979328,8.178976947293169

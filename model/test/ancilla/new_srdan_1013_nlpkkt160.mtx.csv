@@ -1,0 +1,2 @@
+name,blocks,nrows,ncols,nnzs,t64,t32,t16,t8,t1,nnzs_per_row,Cnrows_log10,Cncols_log10,Cnnzs_log10
+nlpkkt160.mtx,1,8.35E+06,8.35E+06,1.11E+08,0,0,0,0,0,13.293413173652695,6.921686475483602,6.921686475483602,8.045322978786658
