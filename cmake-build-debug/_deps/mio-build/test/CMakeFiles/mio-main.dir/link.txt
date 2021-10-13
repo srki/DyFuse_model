@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mio-main.dir/main.c.o  -o mio-main  ../src/libmio.a ../external/mmio/libmmio.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mxm-perf-c.dir/mxm-perf.c.o  -o mxm-perf-c   -L/home/nanding/dyfuse/external/GraphBLAS/debug/lib  -Wl,-rpath,/home/nanding/dyfuse/external/GraphBLAS/debug/lib ../../_deps/mio-build/src/libmio.a -lgraphblas -lm ../../_deps/mio-build/external/mmio/libmmio.a /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

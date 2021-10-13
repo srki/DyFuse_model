@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="grb_fusion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\apps\;CMake Files\apps\simple_model\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\otx-src\;CMake Files\cmake-build-debug\_deps\otx-src\tests\;CMake Files\cmake-build-debug\_deps\mio-src\;CMake Files\cmake-build-debug\_deps\mio-src\external\;CMake Files\cmake-build-debug\_deps\mio-src\external\mmio\;CMake Files\cmake-build-debug\_deps\mio-src\src\;CMake Files\cmake-build-debug\_deps\mio-src\test\;CMake Files\src\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main-cpp">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/main-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 main-cpp"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main-cpp/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/main-cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 main-cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main-c">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/main-c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/c"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 main-c"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main-c/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/main-c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/c"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 main-c/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-build/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmio">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/libmmio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 mmio"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmio/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/libmmio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 mmio/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/external/mmio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mio">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/libmio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 mio"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mio/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/libmio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 mio/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mio-main">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/mio-main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/test/inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 mio-main"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mio-main/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/mio-main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/test/inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 mio-main/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="feature_extraction">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/feature_extraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 feature_extraction"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="feature_extraction/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/feature_extraction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 feature_extraction/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_spgemm_comp_scheduler">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/train_spgemm_comp_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 train_spgemm_comp_scheduler"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_spgemm_comp_scheduler/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/train_spgemm_comp_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 train_spgemm_comp_scheduler/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_spgemm_scheduler">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/train_spgemm_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 train_spgemm_scheduler"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_spgemm_scheduler/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/train_spgemm_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 train_spgemm_scheduler/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_tricnt_scheduler">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/train_tricnt_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 train_tricnt_scheduler"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_tricnt_scheduler/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/train_tricnt_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 train_tricnt_scheduler/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_spgemm_scheduler">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/simple_spgemm_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 simple_spgemm_scheduler"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_spgemm_scheduler/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/simple_spgemm_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 simple_spgemm_scheduler/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_mxm_scheduler">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/simple_mxm_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 simple_mxm_scheduler"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_mxm_scheduler/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/simple_mxm_scheduler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUTS_DIR=&quot;/home/nanding/dyfuse_new/apps/simple_model/../inputs&quot;"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/include/cpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 simple_mxm_scheduler/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/apps/simple_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grb">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/src/libgrb.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../src"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 grb"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grb/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/src/libgrb.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../src"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 grb/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test-VectorEquals">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Test-VectorEquals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Test-VectorEquals"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test-VectorEquals/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Test-VectorEquals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Test-VectorEquals/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixTest">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/MatrixTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 MatrixTest"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixTest/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/MatrixTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 MatrixTest/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-Vector">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-Vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-Vector"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-Vector/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-Vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-Vector/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-extract">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-extract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-extract"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-extract/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-extract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-extract/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-mxm">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-mxm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-mxm"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-mxm/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-mxm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-mxm/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-apply">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-apply" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-apply"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-apply/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-apply" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-apply/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-mvx">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-mvx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-mvx"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-mvx/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-mvx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-mvx/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-vxm">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-vxm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-vxm"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-vxm/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-vxm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-vxm/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-reduceScalar">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-reduceScalar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-reduceScalar"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-reduceScalar/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-reduceScalar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-reduceScalar/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-eWiseOps">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-eWiseOps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-eWiseOps"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-eWiseOps/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-eWiseOps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-eWiseOps/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-Matrix">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-Matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-Matrix"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-Matrix/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-Matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-Matrix/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-block">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-block" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-block"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-block/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-block" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-block/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-reduceVector">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-reduceVector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-reduceVector"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-reduceVector/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-reduceVector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-reduceVector/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-selectMatrix">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-selectMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-selectMatrix"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scratch-selectMatrix/fast">
+				<Option output="/home/nanding/dyfuse_new/cmake-build-debug/tests/Scratch-selectMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nanding/dyfuse_new/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nanding/dyfuse_new/src/../include"/>
+					<Add directory="/home/nanding/dyfuse_new/src/../extern"/>
+					<Add directory="/home/nanding/dyfuse_new/external/GraphBLAS/debug/include"/>
+					<Add directory="/home/nanding/dyfuse_new/external/starpu/debug/include/starpu/1.3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Scratch-selectMatrix/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/nanding/dyfuse_new/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/ConcurrencyControlComponent.cpp">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/ConcurrencyControlComponent.h">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/ControlTask.cpp">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/ControlTask.h">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/PinThreadsTask.cpp">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/PinThreadsTask.h">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/Scheduler.cpp">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/Scheduler.h">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/SchedulingPolicy.cpp">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/scheduler/SchedulingPolicy.h">
+			<Option target="train_spgemm_comp_scheduler"/>
+			<Option target="train_spgemm_scheduler"/>
+			<Option target="train_tricnt_scheduler"/>
+			<Option target="simple_spgemm_scheduler"/>
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/feature_extraction.cpp">
+			<Option target="feature_extraction"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/mxm_scheduler.cpp">
+			<Option target="simple_mxm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/spgemm_scheduler.cpp">
+			<Option target="simple_spgemm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/spgemm_train_complement_model_scheduler.cpp">
+			<Option target="train_spgemm_comp_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/spgemm_train_model_scheduler.cpp">
+			<Option target="train_spgemm_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/tricnt_train_model_scheduler.cpp">
+			<Option target="train_tricnt_scheduler"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio/mmio.c">
+			<Option target="mmio"/>
+			<Option target="mio"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio/mmio.h">
+			<Option target="mmio"/>
+			<Option target="mio"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/reader.c">
+			<Option target="mio"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/writer.c">
+			<Option target="mio"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/test/main.c">
+			<Option target="mio-main"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/tests/main.c">
+			<Option target="main-c"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/tests/main.cpp">
+			<Option target="main-cpp"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/src/ast/OpMxM.cpp">
+			<Option target="grb"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/src/ast/Operation.cpp">
+			<Option target="grb"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/src/context/Context.cpp">
+			<Option target="grb"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/MatrixTest.cpp">
+			<Option target="MatrixTest"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/apply.cpp">
+			<Option target="Scratch-apply"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/block.cpp">
+			<Option target="Scratch-block"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/e-wise-ops.cpp">
+			<Option target="Scratch-eWiseOps"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/extract.cpp">
+			<Option target="Scratch-extract"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/mxm.cpp">
+			<Option target="Scratch-mxm"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/mxv.cpp">
+			<Option target="Scratch-mvx"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/reduce-scalar.cpp">
+			<Option target="Scratch-reduceScalar"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/reduce-vector.cpp">
+			<Option target="Scratch-reduceVector"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/scratch-matrix.cpp">
+			<Option target="Scratch-Matrix"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/scratch-vector.cpp">
+			<Option target="Scratch-Vector"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/select-matrix.cpp">
+			<Option target="Scratch-selectMatrix"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/scratch/vxm.cpp">
+			<Option target="Scratch-vxm"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/vector-equals.cpp">
+			<Option target="Test-VectorEquals"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/apps/simple_model/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\simple_model\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\otx-src\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-src/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\otx-src\tests\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\mio-src\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\mio-src\external\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/external/mmio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\mio-src\external\mmio\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\mio-src\src\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/cmake-build-debug/_deps/mio-src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\mio-src\test\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/nanding/dyfuse_new/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

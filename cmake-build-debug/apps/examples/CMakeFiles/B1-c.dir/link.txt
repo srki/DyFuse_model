@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/B1-c.dir/B1.c.o  -o B1-c   -L/home/nanding/dyfuse/external/GraphBLAS/debug/lib  -Wl,-rpath,/home/nanding/dyfuse/external/GraphBLAS/debug/lib -lgraphblas -lm ../../_deps/mio-build/src/libmio.a ../../_deps/mio-build/external/mmio/libmmio.a 

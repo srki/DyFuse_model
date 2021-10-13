@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/CMakeFiles/otx-populate"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/CMakeFiles/otx-populate.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/CMakeFiles/otx-populate-complete.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-install.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-download.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-update.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-patch.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-configure.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-build.rule"
+		},
+		{
+			"file" : "/home/nanding/dyfuse_new/cmake-build-debug/_deps/otx-subbuild/otx-populate-prefix/src/otx-populate-stamp/otx-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"otx-populate"
+		],
+		"name" : "otx-populate"
+	}
+}

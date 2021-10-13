@@ -1,0 +1,71 @@
+cmake_minimum_required(VERSION 3.14)
+project(grb_fusion)
+
+set(CMAKE_CXX_STANDARD 17)
+
+option(GENERATE_TRACE "GENERATE_TRACE" OFF)
+option(USE_BURBLE "USE_BURBLE" ON)
+
+if (${GENERATE_TRACE})
+    set(STARPU_TRACE "-fxt")
+else ()
+    set(STARPU_TRACE "")
+endif ()
+
+if (NOT STARPU_HOME)
+    if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+        set(STARPU_HOME ${CMAKE_HOME_DIRECTORY}/external/starpu/debug)
+    elseif (CMAKE_BUILD_TYPE STREQUAL "RelWithDebInfo")
+        set(STARPU_HOME ${CMAKE_HOME_DIRECTORY}/external/starpu/release)
+    else ()
+        set(STARPU_HOME ${CMAKE_HOME_DIRECTORY}/external/starpu/release-srki-fork)
+    endif ()
+endif ()
+
+if (NOT GBLAS_HOME)
+    if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+        set(GBLAS_HOME ${CMAKE_HOME_DIRECTORY}/external/GraphBLAS/debug)
+    elseif (CMAKE_BUILD_TYPE STREQUAL "RelWithDebInfo")
+        set(GBLAS_HOME ${CMAKE_HOME_DIRECTORY}/external/GraphBLAS/relwithdebinfo)
+    else ()
+        if (${USE_BURBLE})
+            set(GBLAS_HOME ${CMAKE_HOME_DIRECTORY}/external/GraphBLAS/release-burble)
+        else ()
+            set(GBLAS_HOME ${CMAKE_HOME_DIRECTORY}/external/GraphBLAS/release)
+        endif ()
+    endif ()
+endif ()
+
+if (NOT GBLAS_SERIAL_HOME)
+    set(GBLAS_SERIAL_HOME ${GBLAS_HOME})
+endif ()
+
+
+macro(target_use_starpu _name)
+    target_include_directories(${_name} PUBLIC ${STARPU_HOME}${STARPU_TRACE}/include/starpu/1.3)
+    target_link_libraries(${_name} PUBLIC ${STARPU_HOME}${STARPU_TRACE}/lib/libstarpu-1.3.so)
+endmacro()
+
+macro(target_use_gblas _name _serial)
+    if (${_serial})
+        target_include_directories(${_name} PUBLIC ${GBLAS_SERIAL_HOME}/include)
+        target_link_libraries(${_name} PUBLIC ${GBLAS_SERIAL_HOME}/lib/libgraphblas.so)
+    else ()
+        target_include_directories(${_name} PUBLIC ${GBLAS_HOME}/include)
+        target_link_libraries(${_name} PUBLIC ${GBLAS_HOME}/lib/libgraphblas.so)
+    endif ()
+    target_link_libraries(${_name} PUBLIC m)
+endmacro()
+
+include(FetchContent)
+
+add_subdirectory(apps)
+add_subdirectory(src)
+add_subdirectory(tests)
+
+message(STATUS "STARPU HOME:            " ${STARPU_HOME})
+message(STATUS "GraphBLAS HOME:         " ${GBLAS_HOME})
+message(STATUS "GraphBLAS Serial HOME:  " ${GBLAS_SERIAL_HOME})
+message(STATUS "Generating trace:       " ${GENERATE_TRACE})
+message(STATUS "Use burble:             " ${USE_BURBLE})
+

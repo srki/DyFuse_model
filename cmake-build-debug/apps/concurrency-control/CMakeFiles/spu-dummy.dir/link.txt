@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/spu-dummy.dir/spu-dummy.cpp.o  -o spu-dummy   -L/home/nanding/dyfuse/external/starpu/debug/lib  -Wl,-rpath,/home/nanding/dyfuse/external/starpu/debug/lib -lstarpu-1.3 /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

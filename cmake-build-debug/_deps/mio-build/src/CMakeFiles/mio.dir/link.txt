@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmio.a  CMakeFiles/mio.dir/__/external/mmio/mmio.c.o CMakeFiles/mio.dir/reader.c.o CMakeFiles/mio.dir/writer.c.o
+/usr/bin/ranlib libmio.a
