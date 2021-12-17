@@ -61,7 +61,6 @@ include(FetchContent)
 
 add_subdirectory(apps)
 add_subdirectory(src)
-add_subdirectory(tests)
 
 message(STATUS "STARPU HOME:            " ${STARPU_HOME})
 message(STATUS "GraphBLAS HOME:         " ${GBLAS_HOME})
